@@ -2,6 +2,9 @@
 {% load wagtailcore_tags navigation_tags wagtailimages_tags %}
 
 {% block content %}
+    {% image self.image fill-1920x600 as hero_img %}
+        {% include "mynote/include/header-hero.html" %}
+
     {% include "mynote/include/header-index.html" %}
 
     <div class="container">
