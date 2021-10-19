@@ -1,1 +1,1 @@
-web: gunicorn --wsgi-file=mynote/wsgi.py --log-file -
+web: gunicorn mynote.wsgi --log-file -
