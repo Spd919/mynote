@@ -4,9 +4,9 @@ from django.shortcuts import render
 
 from wagtail.core.models import Page
 from wagtail.search.models import Query
-import sys
-sys.path.append('../')
-from mynote.models import BlogPage
+# import sys
+# sys.path.append('../')
+from mynote.mynote.models import BlogPage
 
 def search(request):
     # Search
